@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playkids | Children's app to learn while having fun</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../image/images.png  ">
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+        font-family: Nunito, Avenir, Helvetica, Arial, sans-serif;
+
+    }
+    .container{
+        height: 1226px;
+    }
+
+    .log {
+        display: flex;
+        width: max-content;
+    }
+
+    .top {
+        color: #a217ab;
+        text-decoration: none;
+        font-family: Nunito, Avenir, Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        font-size: 1.9rem;
+
+    }
+
+    .nav {
+        /* border: 1px solid #000; */
+        height: 70px;
+        box-shadow: 0px .2px 10px rgb(107, 105, 105);
+    }
+
+    .log a {
+        position: relative;
+        left: 40px;
+        top: 15px;
+    }
+
+    div h1 {
+        width: max-content;
+        font-size: 2.3rem;
+        font-weight: 900;
+        position: relative;
+        top: 30px;
+        left: 50px;
+        color: rgb(68, 65, 65);
+        /* border: 1px solid #000; */
+    }
+
+    div p {
+        width: max-content;
+        position: relative;
+        top: 40px;
+        left: 50px;
+        /* border: 1px solid #000; */
+
+    }
+
+    .box {
+        display: flex;
+        padding: 20px;
+        /* border: 1px solid #000; */
+        justify-content: space-around;
+        width: 1290px;
+        position: relative;
+        top: 50px;
+        left: 10px;
+        border: none;
+    }
+
+    .box1 {
+        width: 600px;
+        height: 350px;
+        /* border: 1px solid grey; */
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px black;
+
+    }
+
+    .green {
+        width: 600px;
+        height: 350px;
+        border: 1px solid grey;
+        border-radius: 20px;
+        background-image: url('../image/lightning.49e7e323.svg');
+        background-color: rgb(134, 221, 52);
+    }
+
+    input {
+        width: 500px;
+        border: none;
+        border-bottom: 2px solid grey;
+        outline: none;
+        font-size: 15px;
+        padding: 10px;
+        position: relative;
+        left: 45px;
+
+    }
+
+    input:nth-child(1) {
+        position: relative;
+        top: 50px;
+    }
+
+    input:nth-child(2) {
+        position: relative;
+        top: 70px;
+    }
+
+    button {
+        width: 500px;
+        height: 45px;
+        position: relative;
+        top: 130px;
+        left: 50px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #a217ab;
+        border: none;
+        font-family: Nunito, Avenir, Helvetica, Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 900;
+        color: white;
+    }
+
+    button:hover {
+        opacity: .7;
+
+    }
+
+    .middle {
+        display: flex;
+        width: max-content;
+        position: relative;
+        top: 150px;
+        left: 220px;
+        font-weight: 700;
+        font-size: 0.9rem;
+        /* border: 1px solid #000; */
+
+    }
+
+    hr {
+        width: 277px;
+        height: 1px;
+        position: relative;
+        top: 10px;
+    }
+
+    .sp {
+        display: flex;
+        position: relative;
+        top: 20px;
+    }
+
+    .connect {
+        background: linear-gradient(180deg, #4cd3f5, #00aeff);
+        width: 596.34px;
+    }
+
+    .with {
+        position: relative;
+        bottom: 90px;
+        right: 50px;
+    }
+
+    .ph {
+        font-size: 1.2rem;
+        position: relative;
+        top: 60px;
+        left: 20px;
+    }
+    .ttl{
+        border: 1px solid black;
+        height: 551px;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 10px 10px 40px;
+    }
+    .tab{
+        display: flex;
+        flex-direction: column;
+    }
+    .yellow{
+        text-align: center;
+        border: 1px solid #000;
+        position: relative;
+        top: 40px;
+        height: 175px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px;
+        border: none;
+    }
+    .clic{
+        position: relative;
+        top:70px;
+        left: -2px;
+    }
+    .hr_2{
+        position: relative;
+        top: 150px;
+        width: 1339px;
+        height: 2px;
+    }
+    .login_botton{
+        /* border: 2px solid #000; */
+        position: relative;
+        top: 150px;
+        height: 350px;
+        background-color: rgba(128, 128, 128, 0.068);
+    }
+    .h1_2{
+        font-size: 2.5rem;
+        position: relative;
+        top: 100px;
+    }
+    div ul{
+        display: flex;
+        list-style: none;
+        /* border: 2px solid #000; */
+
+    }
+    div ul li{
+        margin-right: 60px;
+        position: relative;
+        top: 150px;
+        left: 50px;
+        color: #a217ab;
+        font-weight: 900;
+        font-size:1.3rem;
+    }
+    .bottom_movi{
+        position: relative;
+        left: 79%;
+        top: 50px;
+    }
+    li a{
+        text-decoration: none;
+        color: #a217ab;
+    }
+    li a:hover{
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="log">
+                <a class="top" href="#">Playkids+</a>
+            </div>
+        </div>
+        <div class="h1p">
+            <h1>Learn while having fun!</h1>
+            <p>The best educational content for your kids is just ahead.</p>
+        </div>
+        <div class="box">
+            <div class="ttl">
+                <div class="box1">
+                    <input type="email" placeholder="Enter your Playkids account email" required>
+                    <input type="password" placeholder="Enter your password" required>
+                    <button>Sign in</button>
+                    <a class="middle" href="">
+                        I forget my password</a>
+                </div>
+                <div class="sp">
+                    <hr>
+                    <span>OR</span>
+                    <hr>
+                </div>
+                <div class="tab">
+                    <a class="with" href=""><button class="connect" style="color: white;">Connet with
+                            playphone</button></a>
+                    <p class="ph">
+                        Login by phone number: Service only available for applications on <br> mobile devices. Please
+                        access the link we have sent you via SMS.
+                    </p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="green"></div>
+                <div class="yellow">
+                    <p>Not a member yet?</p>
+                    <a href="https://app.playkids.com/signup"><button class="clic">Click here to sign up</button></a>
+                </div>
+            </div>
+        </div>
+        <hr class="hr_2">
+        <div class="login_botton">
+            <div>
+                <h1 class="h1_2">Do you have question?</h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="https://help.playkids.com/en/?_ga=2.266601608.724188935.1716372200-634271232.1716372200" target="_blank">\ Help Center</a></li>
+                    <li><a href="https://policies.playkidsapp.com/en/tos/april-2024" target="_blank">\ Terms of use</a></li>
+                    <li><a href="https://policies.playkidsapp.com/en/tos/april-2024" target="_blank">\ Pravicy Policy</a></li>
+                    <li><a href="https://policies.playkidsapp.com/en/cookie/april-2024" target="_blank">\ Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <img class="bottom_movi" src="../image/movile_playkids_app_extralarge_whitetm.png" alt="" width="160px">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
